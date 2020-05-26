@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">test-Boilerplate</string>
+
+    <!-- App bar -->
+    <string name="txt_toolbar_title_event">EVENTS</string>
+    <string name="txt_toolbar_title_guest">GUESTS</string>
+
+    <string name="txt_fragment_test">This is fragment sample</string>
+    <!--    empty state-->
+    <string name="txt_empty_member">No member found</string>
+    <string name="txt_empty_member_content">There is no member to view</string>
+    <string name="txt_empty_event">No member found</string>
+    <string name="txt_empty_event_content">There is no member to view</string>
+
+    <string name="txt_dialog_loading">Please Wait</string>
+    <string name="txt_dialog_yes">Yes</string>
+    <string name="txt_dialog_ok">OK</string>
+    <string name="txt_error_global">An occur errors..</string>
+    <string name="txt_dialog_no">No</string>
+
+    <!-- hint-->
+    <string name="txt_hint_name">Type name here..</string>
+    <string name="txt_hint_sentence">Type text palindrome</string>
+
+    <!--    txv-->
+    <string name="txt_version">Version </string>
+    <string name="txt_name">Hallo,</string>
+    <string name="txt_detail_event_item">Lorem ipsum dolor sit amet... </string> <!--  , consectetur  elit. Suspendisse nunc mauris, eleifend nec tristique vitae, maximus id arcu. Morbi quis aliquet justo, vel porttitor lorem...-->
+    <string name="txt_title_activity_home">Welcome</string>
+    <string name="txt_subtitle_activity_home">This is app for suitmedia mobile developer test</string>
+    <string name="txt_copyright">Copyright &#169; 2020 Suitmedia All rights reserved.</string>
+
+
+    <!-- Button-->
+    <string name="txt_button_next">Next</string>
+    <string name="txt_button_check">Check</string>
+    <string name="txt_button_event">Choose Event</string>
+    <string name="txt_button_guest">Choose Guest</string>
+    <string name="txt_button_signout">Sign Out</string>
+    <string name="txt_button_GoogleSignIn">Sign in with Google</string>
+    <string name="txt_button_FacebookSignIn">Sign in with Facebook</string>
+
+    <!-- Twitter -->
+    <string name="twitter_api_key">SrKNXbDg66CIEYUcG649d8pgO</string>
+    <string name="twitter_secret_key">wzTzscmMWOQPcHjiU3hZ2UABODDQVoMUCWktwPcuBpNC9oOh9L</string>
+    <string name="txt_twitter_not_installed">Twitter App is not installed</string>
+
+    <!-- Google -->
+    <!--    SuitBase Core <string name="google_default_web_client_id">AAAA0Szs51c:APA91bGK7PDC7FFAxaYheviO3w4rYhJHcJtumjf21RoSdXrakatKwlMcns-BRRoEBzT4fSpXB2hYetHQobWSayjNqch8CDS7KWUqEqUjoyngD00_czYleGG9x9yJm_feLlCWQI060&#45;&#45;U</string>-->
+    <string name="google_default_web_client_id">AAAA35v8RTA:APA91bFR1MTweYpYJwaqPwo3JEUe6RQWKGrPrcFMG9DxlLrRe3AeWkvd66VOW--82VICpihKQvWor4s2OjhSBdVYAiRXboise2POGJzIHCsnQXEu1M8dp2IjXVgQupspsOz1PJv5gZC7</string>
+    <!-- Facebook -->
+    <!--    SuitBaseCore -->
+    <!--    <string name="facebook_app_id">1879532772347939</string>-->
+    <!--    <string name="fb_login_protocol_scheme">fb1879532772347939</string>-->
+    <!--    <string name="facebook_request_field">id,name,email,gender,birthday,picture,cover</string>-->
+    <string name="facebook_app_id">280622746302796</string>
+    <string name="fb_login_protocol_scheme">fb280622746302796</string>
+    <string name="facebook_request_field">id,name,email,gender,birthday,picture,cover</string>
+
+
+    <!-- Error API -->
+    <string name="txt_error_connection">The internet connection appears to be offline</string>
+    <string name="txt_error_unauthorized">Unauthorised User</string>
+    <string name="txt_error_forbidden">Forbidden</string>
+    <string name="txt_error_internal_error">Internal Server Error</string>
+    <string name="txt_error_bad_request">Bad Request</string>
+    <string name="txt_error_no_internet_connection">No Internet Connection</string>
+    <string name="txt_error_custom">Something Went Wrong API is not responding properly!</string>
+    <string name="txt_error_crash">an error has occurred. the application will restart from the beginning and if it still errors please try deleting the application data and try again</string>
+    <string name="txt_refresh">Refresh</string>
+    <string name="txt_retry">Retry</string>
+    <string name="txt_error_no_internet">No Internet Connection</string>
+    <string name="txt_skip">Skip</string>
+    <string name="txt_button_fb_login">LOGIN FACEBOOK</string>
+    <string name="txt_button_twitter_login">LOGIN TWITTER</string>
+    <string name="txt_button_google_login">LOGIN GOOGLE</string>
+    <string name="txt_show_fragment">Show Fragment</string>
+    <string name="txt_toolbar_header">Header</string>
+    <string name="txt_alert_dialog">ALERT DIALOG</string>
+    <string name="txt_confirm_dialog">CONFIRM DIALOG</string>
+
+
+    <string-array name="event_list_title">
+        <item> Pekan #KreatifDisaatSulit </item>
+        <item> Saturasi Volume 1 </item>
+        <item> Charity Selection Night </item>
+        <item> ANGKLUNG MUSIC CONCERT </item>
+    </string-array>
+
+    <string-array name="event_list_date">
+        <item> April 04 2020</item>
+        <item> April 03  2020</item>
+        <item> March 23 2020</item>
+        <item> March 20 2020</item>
+    </string-array>
+
+    <string-array name="event_list_lattitude">
+        <item>-6.901267</item>
+        <item>-6.910463</item>
+        <item>-6.908583</item>
+        <item>-6.917161</item>
+    </string-array>
+
+    <string-array name="event_list_longtitude">
+        <item>107.618681</item>
+        <item>107.619621</item>
+        <item>107.616208</item>
+        <item>107.629460</item>
+    </string-array>
+
+    <string-array name="event_list_hashtag">
+        <item>#nutricia</item>
+        <item>#highlight F3</item>
+        <item>#event</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

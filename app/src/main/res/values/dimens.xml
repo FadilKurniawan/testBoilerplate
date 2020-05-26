@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="text_button_uppercase">@dimen/_12sdp</dimen>
+
+    <dimen name="_16sp">@dimen/_14sdp</dimen>
+    <dimen name="_15sp">@dimen/_13sdp</dimen>
+    <dimen name="_14sp">@dimen/_12sdp</dimen>
+
+</resources>
