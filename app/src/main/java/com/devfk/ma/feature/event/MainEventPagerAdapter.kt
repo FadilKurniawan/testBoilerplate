@@ -4,7 +4,7 @@ package com.devfk.ma.feature.event
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
 import com.devfk.ma.base.ui.BaseFragment
-import com.devfk.ma.feature.event.eventList.EventListListFragment
+import com.devfk.ma.feature.event.eventList.EventListFragment
 import com.devfk.ma.feature.event.eventMap.EventMapFragment
 
 class MainEventPagerAdapter(fm:FragmentManager) : FragmentPagerAdapter(fm, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT){
@@ -22,7 +22,7 @@ class MainEventPagerAdapter(fm:FragmentManager) : FragmentPagerAdapter(fm, BEHAV
     override fun getCount(): Int = 2
 
     private fun generateEventListFragment(): BaseFragment = if (eventListFragment == null) {
-        EventListListFragment.newInstance()!!
+        EventListFragment.newInstance()!!
     }else{
         eventListFragment!!
     }

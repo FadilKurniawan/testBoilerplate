@@ -14,7 +14,7 @@ import io.realm.RealmResults
 import kotlinx.android.synthetic.main.fragment_event_list.*
 import kotlinx.android.synthetic.main.layout_base_shimmer.*
 
-class EventListListFragment : BaseFragment(),
+class EventListFragment : BaseFragment(),
         EventListView,
         EventItemView.OnActionListener,
         XRecyclerView.LoadingListener {
@@ -22,7 +22,7 @@ class EventListListFragment : BaseFragment(),
 
     companion object {
         fun newInstance(): BaseFragment? {
-            return EventListListFragment()
+            return EventListFragment()
         }
     }
 

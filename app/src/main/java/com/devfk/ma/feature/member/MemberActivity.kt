@@ -1,5 +1,7 @@
 package com.devfk.ma.feature.member
 
+import android.app.Activity
+import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.view.View
@@ -171,7 +173,11 @@ class MemberActivity : BaseActivity(),
 
     override fun onClicked(view: MemberItemView?) {
         view?.getData()?.let {
-            showToast(view.getData().firstName.toString())
+            val intent = Intent().apply {
+                putExtra("guestResultName",view?.getData().firstName+" "+view?.getData().lastName)
+            }
+            setResult(Activity.RESULT_OK,intent)
+            super.onBackPressed()
         }
     }
 
